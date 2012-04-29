@@ -3,6 +3,8 @@
 abstract class LibFacebook_Collection_Abstract implements SeekableIterator, Countable, ArrayAccess
 {
 
+    // TODO Implement paging functionality
+
     /**
      * Stores the connection type for the collection
      *
@@ -131,15 +133,17 @@ abstract class LibFacebook_Collection_Abstract implements SeekableIterator, Coun
      * Required by interface SeekableIterator.
      *
      * @param int $position the position to seek to
+     *
      * @return LibFacebook_Collection_Abstract
-     * @throws Exception
+     *
+     * @throws LibFacebook_Exception
      */
     public function seek($position)
     {
         $position = (int) $position;
         if ($position < 0 || $position >= $this->_count) {
-            require_once 'Zend/Db/Table/Rowset/Exception.php';
-            throw new Exception("Illegal index $position");
+            require_once __DIR__ . DIRECTORY_SEPARATOR . '../Exception.php';
+            throw new LibFacebook_Exception("Illegal index $position");
         }
         $this->_pointer = $position;
         return $this;
@@ -162,15 +166,17 @@ abstract class LibFacebook_Collection_Abstract implements SeekableIterator, Coun
      * Required by the ArrayAccess implementation
      *
      * @param string $offset
+     *
      * @return LibFacebook_Connection_Abstract
-     * @throws Exception
+     *
+     * @throws LibFacebook_Exception
      */
     public function offsetGet($offset)
     {
         $offset = (int) $offset;
         if ($offset < 0 || $offset >= $this->_count) {
-            require_once 'Zend/Db/Table/Rowset/Exception.php';
-            throw new Exception("Illegal index $offset");
+            require_once __DIR__ . DIRECTORY_SEPARATOR . '../Exception.php';
+            throw new LibFacebook_Exception("Illegal index $offset");
         }
         $this->_pointer = $offset;
 
@@ -182,6 +188,7 @@ abstract class LibFacebook_Collection_Abstract implements SeekableIterator, Coun
      * Required by the ArrayAccess implementation
      *
      * @param string $offset
+     *
      * @param mixed $value
      */
     public function offsetSet($offset, $value)

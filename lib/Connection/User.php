@@ -3,9 +3,20 @@ require_once 'Abstract.php';
 
 class LibFacebook_Connection_User extends LibFacebook_Connection_Abstract
 {
+    //TODO Setup permission validation for each connection getter
+
+    //TODO Setup connection setters (e.g. ::addPhoto($data))
+
+    /**
+     * Stores the connection type string
+     *
+     * @var string
+     */
     protected $_type = 'user';
 
     /**
+     * Returns all accounts associated with the user
+     *
      * @return LibFacebook_Collection
      */
     public function getAccounts()

@@ -11,10 +11,25 @@ class LibFacebook
      */
     protected $_data = array();
 
+    /**
+     * Stores an array of all connections that have already been generated
+     *
+     * @var array
+     */
     protected $_connections = array();
 
+    /**
+     * Stores the Facebook PHP SDK API object
+     *
+     * @var Facebook
+     */
     protected $_api;
 
+    /**
+     * Stores the settings to be used for the Facebook PHP SDK
+     *
+     * @var array
+     */
     protected $_apiConfig;
 
     /**
@@ -150,6 +165,7 @@ class LibFacebook
      *
      * @param stdClass  $data Data returned by Facebook Graph API
      * @param string $type Manual setting to override the connection type
+     *
      *
      * @return LibFacebook_Connection_Abstract
      */

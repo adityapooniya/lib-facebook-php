@@ -5,7 +5,11 @@ class LibFacebook_Connection_Summary extends LibFacebook_Connection_Abstract
 {
 
     /**
-     * @param stdClass $data
+     * Constructor
+     *
+     * @param stdClass $data connection data
+     *
+     * @return self
      */
     public function __construct($data)
     {
@@ -26,6 +30,7 @@ class LibFacebook_Connection_Summary extends LibFacebook_Connection_Abstract
 
     /**
      * Whether or not this object should be considered a summary
+     *
      * @var bool
      */
     protected $_isSummary = true;

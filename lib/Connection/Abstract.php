@@ -81,7 +81,7 @@ abstract class LibFacebook_Connection_Abstract
     }
 
     /**
-     * Returns whether the givevn connection is only a summary
+     * Returns whether the given connection is only a summary
      *
      * @return bool
      */
@@ -159,8 +159,7 @@ abstract class LibFacebook_Connection_Abstract
      *
      * @return LibFacebook_Collection
      *
-     * @throws Exception if $collectionType is not set and not a string or is an
-     *                   empty string
+     * @throws Exception if $collectionType is not a string, or is an empty string
      */
     public function getCollection($collectionType, $connectionType=null)
     {
