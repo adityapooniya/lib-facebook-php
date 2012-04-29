@@ -1,0 +1,100 @@
+{
+    "id": "23210346",
+    "name": "Jason Spradlin",
+    "first_name": "Jason",
+    "last_name": "Spradlin",
+    "link": "https://www.facebook.com/JasonSpradlin",
+    "username": "JasonSpradlin",
+    "birthday": "11/12/1982",
+    "hometown": {
+        "id": "103786666326148",
+        "name": "Newport News, Virginia"
+    },
+    "location": {
+        "id": "105699866131371",
+        "name": "Bloomington, Minnesota"
+    },
+    "quotes": "\"You should never fear epic food.\"\r\n  -- Mary-Nevin\r\n\r\n\"Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.\"\r\n    -- Marcus Aurelius\r\n\r\n\"There are three things that are important in human life. The first is to be kind. The second is to be kind. The third is to be kind.\"\r\n    -- Henry James\r\n\r\n\"Being a good friend means never having to ask when someone needs a raft.\"\r\n   -- Kim Ferg\r\n\r\n\"Can mold wet itself?\"\r\n    -- Amanda Costoulas",
+    "work": [
+        {
+            "employer": {
+                "id": "172562519441505",
+                "name": "The Nerdery"
+            },
+            "location": {
+                "id": "105699866131371",
+                "name": "Bloomington, Minnesota"
+            },
+            "position": {
+                "id": "166571006690568",
+                "name": "Software Engineer/PHP Developer"
+            },
+            "start_date": "2011-02"
+        },
+        {
+            "employer": {
+                "id": "103775359661151",
+                "name": "KIT digital"
+            },
+            "location": {
+                "id": "107991659233606",
+                "name": "Atlanta, Georgia"
+            },
+            "position": {
+                "id": "108480125843293",
+                "name": "Web Developer"
+            },
+            "start_date": "2006-06",
+            "end_date": "2011-02"
+        }
+    ],
+    "education": [
+        {
+            "school": {
+                "id": "102073786500792",
+                "name": "Tift County High School"
+            },
+            "year": {
+                "id": "143018465715205",
+                "name": "2000"
+            },
+            "type": "High School"
+        },
+        {
+            "school": {
+                "id": "108433295843939",
+                "name": "Kennesaw State University"
+            },
+            "year": {
+                "id": "138879996141011",
+                "name": "2013"
+            },
+            "concentration": [
+                {
+                    "id": "104076956295773",
+                    "name": "Computer Science"
+                }
+            ],
+            "type": "College"
+        }
+    ],
+    "gender": "male",
+    "interested_in": [
+        "female"
+    ],
+    "relationship_status": "Single",
+    "political": "Moderate Liberal",
+    "email": "jaspradlin@gmail.com",
+    "website": "http://nerdery.com/So\r\nhttp://dashcunning.blogspot.com/",
+    "timezone": -5,
+    "locale": "en_US",
+    "languages": [
+        {
+            "id": "106059522759137",
+            "name": "English"
+        }
+    ],
+    "verified": true,
+    "updated_time": "2012-04-08T07:56:05+0000",
+    "type": "user"
+}

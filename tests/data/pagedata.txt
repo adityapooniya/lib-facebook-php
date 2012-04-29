@@ -1,0 +1,35 @@
+{
+  "id": "172562519441505", 
+  "name": "The Nerdery", 
+  "picture": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/373024_172562519441505_1224253484_s.jpg", 
+  "link": "https://www.facebook.com/TheNerdery", 
+  "likes": 3909, 
+  "cover": {
+    "cover_id": 377647282266360, 
+    "source": "https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash3/s720x720/522067_377647282266360_172562519441505_1194834_1845969212_n.jpg", 
+    "offset_y": 0
+  }, 
+  "category": "Internet/software", 
+  "is_published": true, 
+  "website": "nerdery.com twitter.com/the_nerdery nerdery.com/jobs facebook.com/overnightwebsitechallenge vimeo.com/thenerdery linkedin.com/company/the-nerdery ", 
+  "username": "TheNerdery", 
+  "founded": "2003", 
+  "company_overview": "We’ve outgrown our office seven times since we started in 2003 and are bursting at the seams with technical experts because we’ve faithfully pursued our vision: to be the best place on Earth for web nerds to work.\n\nIt comes naturally to us, being founded by three pioneer programmers, to make a nerd-friendly environment – that’s what we’ve done for hundreds of employees at our Minneapolis HQ and office in Chicago.\n\nSure, we have a dog-friendly workplace, a perpetual chess tournament and a 250-seat Rock Band venue, but the most critical ingredient in keeping an army of technical geniuses happy (other than caffeine) is compelling problems to solve. Luckily, our unique business model ensures that we never run short on interesting problems to sink our teeth into.", 
+  "products": "We’re a custom development shop. Nothing packaged. Our product is our people, and all they can do. Every project is tailored per the precise objectives of our partners. Our success is based on our collaborative approach as development partners who help creative minds and big thinkers engineer and execute their interactive projects. That’s it. And that’s actually a lot.", 
+  "description": "We partner with creative minds and big thinkers to engineer and execute their interactive projects.", 
+  "about": "We partner with advertisers, marketers and other people with big plans to build award-winning interactive projects.  www.nerdery.com", 
+  "location": {
+    "street": "9555 James Ave S, Suite 245", 
+    "city": "Minneapolis", 
+    "state": "MN", 
+    "country": "United States", 
+    "zip": "55431", 
+    "latitude": 44.830547620648, 
+    "longitude": -93.300612656316
+  }, 
+  "phone": "8776646373", 
+  "can_post": true, 
+  "checkins": 133, 
+  "talking_about_count": 88, 
+  "type": "page"
+}
