@@ -49,7 +49,7 @@ Our goal, however, is to allow something like the following:
         // would only cause an empty result set here (no foreach() warnings!)
 
         foreach ($friend->getAlbums() as $album) {
-            foreach ($album->getPhotos() as $photos) {
+            foreach ($album->getPhotos() as $photo) {
                 // Maybe Facebook_Connection_Album is iterable over its photos
             }
         }
