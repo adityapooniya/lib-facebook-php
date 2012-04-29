@@ -45,11 +45,11 @@ Our goal, however, is to allow something like the following:
     // instead.
 
     foreach ($friends as $friend) {
-        // $friends is an enumerable object so if there was an error before it
+        // $friends is an iterable object so if there was an error before it
         // would only cause an empty result set here (no foreach() warnings!)
 
         foreach ($friend->getAlbums() as $album) {
-            foreach ($album as $photos) {
+            foreach ($album->getPhotos() as $photos) {
                 // Maybe Facebook_Connection_Album is iterable over its photos
             }
         }
