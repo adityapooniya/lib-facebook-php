@@ -89,7 +89,7 @@ goal is to use the following style functionality:
 
 * Finish writing out base getters for inter-connection calls (e.g. $user->getPhotos())
 * Begin work on connection setters (e.g. $user->addPhoto($data))
-* Add validation for various requests (e.g. $user->getAlbums() requires permission 'user_albums', which was not requested from the user)
+* Add validation for various requests (e.g. $user->getAlbums() requires permission 'user_photos', which was not requested from the user)
 * Begin work on exceptions and exception handling for easy debugging.
 
 * Collections: Determine method for dealing with collection "paging" by Facebook
