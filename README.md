@@ -91,6 +91,7 @@ goal is to use the following style functionality:
 * Begin work on connection setters (e.g. $user->addPhoto($data))
 * Add validation for various requests (e.g. $user->getAlbums() requires permission 'user_photos', which was not requested from the user)
 * Begin work on exceptions and exception handling for easy debugging.
+* Setup autoloader to load classes
 
 * Collections: Determine method for dealing with collection "paging" by Facebook
 ** (Collections work as iterable groupings, such as the albums returned by getAlbums().  Facebook implements paging (only returning X results, and a link for the next page)).

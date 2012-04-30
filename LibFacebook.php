@@ -181,6 +181,7 @@ class LibFacebook
             // summary.
             try {
                 if(isset($data->type)) {
+                    // TODO Setup autoloader to handle class loading
                     $type      = ucfirst($data->type);
                     $classPath = __DIR__ . DIRECTORY_SEPARATOR . "lib/Connection/{$type}.php";
                     $typeClass = "LibFacebook_Connection_{$type}";
